@@ -28,4 +28,29 @@ ul {
     list-style: none;
 }
 
-h2 {}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px;
+}
+
+main section {
+    flex: 1;
+    min-width: 300px;
+    border: 1px solid black;
+    padding: 20px;
+}
