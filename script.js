@@ -27,3 +27,20 @@ function mdas(num1, num2) {
     return (`Values: ${num1} and ${num2}. \n Product ${m}, \nQuotient: ${d}, \nSum: ${a}, \nDiff: ${s}`);
 }
 console.log(mdas(5, 3))
+
+//Query selector
+const heading = document.querySelector("h1")
+console.log(heading);
+
+
+const contactHeading = document.querySelector("#contact h2");
+console.log(contactHeading);
+
+
+const projectHeading = document.querySelector("#services h2");
+console.log(projectHeading);
+
+
+
+
+
