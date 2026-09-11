@@ -40,7 +40,9 @@ console.log(contactHeading);
 const projectHeading = document.querySelector("#services h2");
 console.log(projectHeading);
 
-
-
+//Text Context
+heading.textContent = "My portfolio";
+contactHeading.textContent = "Let's Connect!";
+projectHeading.textContent = "My Projects";
 
 
